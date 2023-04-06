@@ -87,6 +87,8 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
 
 There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
 
+New paragraph!!!!! 
+
 ❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
 
 ## Laws
