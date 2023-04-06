@@ -11,142 +11,141 @@ Vous aimez ce projet ? S'il vous plaît, envisagez [de me parrainer](https://git
 <!-- vim-markdown-toc GFM -->
 
 - [Introduction](#introduction)
-- [Laws](#laws)
-    - [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
-    - [Amdahl's Law](#amdahls-law)
-    - [The Broken Windows Theory](#the-broken-windows-theory)
-    - [Brooks' Law](#brooks-law)
-    - [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
-    - [Clarke's three laws](#clarkes-three-laws)
-    - [Conway's Law](#conways-law)
-    - [Cunningham's Law](#cunninghams-law)
-    - [Dunbar's Number](#dunbars-number)
-    - [The Dunning-Kruger Effect](#the-dunning-kruger-effect)
-    - [Fitts' Law](#fitts-law)
-    - [Gall's Law](#galls-law)
-    - [Goodhart's Law](#goodharts-law)
-    - [Hanlon's Razor](#hanlons-razor)
-    - [Hick's Law (Hick-Hyman Law)](#hicks-law-hick-hyman-law)
-    - [Hofstadter's Law](#hofstadters-law)
-    - [Hutber's Law](#hutbers-law)
-    - [The Hype Cycle &amp; Amara's Law](#the-hype-cycle--amaras-law)
-    - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
-    - [Kernighan's Law](#kernighans-law)
-    - [Linus's Law](#linuss-law)
-    - [Metcalfe's Law](#metcalfes-law)
-    - [Moore's Law](#moores-law)
-    - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
-    - [Occam's Razor](#occams-razor)
-    - [Parkinson's Law](#parkinsons-law)
-    - [Premature Optimization Effect](#premature-optimization-effect)
-    - [Putt's Law](#putts-law)
-    - [Reed's Law](#reeds-law)
-    - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
-    - [The Law of Demeter](#the-law-of-demeter)
-    - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-    - [The Law of the Instrument](#the-law-of-the-instrument)
-    - [The Law of Triviality](#the-law-of-triviality)
-    - [The Unix Philosophy](#the-unix-philosophy)
-    - [The Scout Rule](#the-scout-rule)
-    - [The Spotify Model](#the-spotify-model)
-    - [The Two Pizza Rule](#the-two-pizza-rule)
-    - [Wadler's Law](#wadlers-law)
-    - [Wheaton's Law](#wheatons-law)
-- [Principles](#principles)
-    - [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
-    - [Chesterton's Fence](#chestertons-fence)
-    - [The Dead Sea Effect](#the-dead-sea-effect)
-    - [The Dilbert Principle](#the-dilbert-principle)
-    - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    - [The Shirky Principle](#the-shirky-principle)
-    - [The Peter Principle](#the-peter-principle)
-    - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
-    - [SOLID](#solid)
-    - [The Single Responsibility Principle](#the-single-responsibility-principle)
-    - [The Open/Closed Principle](#the-openclosed-principle)
-    - [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    - [The Interface Segregation Principle](#the-interface-segregation-principle)
-    - [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    - [The DRY Principle](#the-dry-principle)
-    - [The KISS principle](#the-kiss-principle)
+- [Lois](#laws)
+    - [Principe 90–9–1 (règle du 1 %)](#9091-principle-1-rule)
+    - [La loi d'Amdahl](#amdahls-law)
+    - [La théorie des fenêtres brisées](#the-broken-windows-theory)
+    - [Loi de Brooks](#brooks-law)
+    - [Théorème CAP (théorème de Brewer)](#cap-theorem-brewers-theorem)
+    - [Les trois lois de Clarke](#clarkes-three-laws)
+    - [Loi de Conway](#conways-law)
+    - [Loi de Cunningham](#cunninghams-law)
+    - [Numéro de Dunbar](#dunbars-number)
+    - [L'effet Dunning-Kruger](#the-dunning-kruger-effect)
+    - [Loi de Fitts](#fitts-law)
+    - [Loi de Gall](#galls-law)
+    - [Loi de Goodhart](#goodharts-law)
+    - [Rasoir de Hanlon](#hanlons-razor)
+    - [Loi de Hick (loi de Hick-Hyman)](#hicks-law-hick-hyman-law)
+    - [Loi de Hofstadter](#hofstadters-law)
+    - [La loi de Huber](#hutbers-law)
+    - [Le cycle de la mode et la loi d'Amara](#the-hype-cycle--amaras-law)
+    - [Loi d'Hyrum (La loi des interfaces implicites)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Loi de Kernighan](#kernighans-law)
+    - [La loi de Linus](#linuss-law)
+    - [Loi de Metcalfe](#metcalfes-law)
+    - [la loi de Moore](#moores-law)
+    - [Loi de Murphy / Loi de Sod](#murphys-law--sods-law)
+    - [Le rasoir d'Occam](#occams-razor)
+    - [Loi de Parkinson](#parkinsons-law)
+    - [Effet d'optimisation prématuré](#premature-optimization-effect)
+    - [Loi de putt](#putts-law)
+    - [Loi de Reed](#reeds-law)
+    - [La loi de conservation de la complexité (loi de Tesler)](#the-law-of-conservation-of-complexity-teslers-law)
+    - [La loi de Déméter](#the-law-of-demeter)
+    - [La loi des abstractions qui fuient](#the-law-of-leaky-abstractions)
+    - [La loi de l'instrument](#the-law-of-the-instrument)
+    - [La loi de la trivialité](#the-law-of-triviality)
+    - [La philosophie Unix](#the-unix-philosophy)
+    - [La règle scoute](#the-scout-rule)
+    - [Le modèle Spotify](#the-spotify-model)
+    - [La règle des deux pizzas](#the-two-pizza-rule)
+    - [Loi de Wadler](#wadlers-law)
+    - [Loi de Wheaton](#wheatons-law)
+- [Des principes](#principles)
+    - [Tous les modèles sont faux (loi de George Box)](#all-models-are-wrong-george-boxs-law)
+    - [Clôture de Chesterton](#chestertons-fence)
+    - [L'effet de la mer Morte](#the-dead-sea-effect)
+    - [Le principe de Dilbert](#the-dilbert-principle)
+    - [Le principe de Pareto (la règle des 80/20)](#the-pareto-principle-the-8020-rule)
+    - [Le principe Shirky](#the-shirky-principle)
+    - [Le principe de Peter](#the-peter-principle)
+    - [Le principe de robustesse (loi de Postel)](#the-robustness-principle-postels-law)
+    - [SOLIDE](#solid)
+    - [Le principe de responsabilité unique](#the-single-responsibility-principle)
+    - [Le principe ouvert/fermé](#the-openclosed-principle)
+    - [Le principe de substitution de Liskov](#the-liskov-substitution-principle)
+    - [Le principe de ségrégation d'interface](#the-interface-segregation-principle)
+    - [Le principe d'inversion de dépendance](#the-dependency-inversion-principle)
+    - [Le principe SEC](#the-dry-principle)
+    - [Le principe KISS](#the-kiss-principle)
     - [YAGNI](#yagni)
-    - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
-    - [The Principle of Least Astonishment](#the-principle-of-least-astonishment)
-- [Reading List](#reading-list)
-- [Online Resources](#online-resources)
-- [PDF eBook](#pdf-ebook)
+    - [Les erreurs de l'informatique distribuée](#the-fallacies-of-distributed-computing)
+    - [Le principe du moindre étonnement](#the-principle-of-least-astonishment)
+- [Liste de lecture](#reading-list)
+- [Ressources en ligne](#online-resources)
+- [Livre électronique PDF](#pdf-ebook)
 - [Podcast](#podcast)
-- [Translations](#translations)
-- [Related Projects](#related-projects)
-- [Contributing](#contributing)
-- [TODO](#todo)
+- [Traductions](#translations)
+- [Projets liés](#related-projects)
+- [Contribuant](#contributing)
+- [FAIRE](#todo)
 
 <!-- vim-markdown-toc -->
 
 ## Introduction
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+Il y a beaucoup de lois dont les gens discutent lorsqu'ils parlent de développement. Ce référentiel est une référence et un aperçu de certains des plus courants. Veuillez partager et soumettre des PR !
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not *advocate* for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+❗ : Ce référentiel contient une explication de certaines lois, principes et modèles, mais ne *préconise* aucun d'entre eux. La question de savoir si elles doivent être appliquées sera toujours un sujet de débat et dépendra grandement de ce sur quoi vous travaillez.
 
-## Laws
+## Lois
 
-And here we go!
+Et c'est reparti!
 
-Hello, I'm teh new paragraph!!!
+Bonjour, je suis le nouveau paragraphe !!!
 
-### 90–9–1 Principle (1% Rule)
+### Principe 90–9–1 (règle du 1 %)
 
-[1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
+[Règle du 1% sur Wikipédia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 
-The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.
+Le principe du 90-9-1 suggère qu'au sein d'une communauté Internet telle qu'un wiki, 90 % des participants ne consomment que du contenu, 9 % éditent ou modifient du contenu et 1 % des participants ajoutent du contenu.
 
-Real-world examples:
+Exemples concrets :
 
-- A 2014 study of four digital health social networks found the top 1% created 73% of posts, the next 9% accounted for an average of ~25% and the remaining 90% accounted for an average of 2% ([Reference](https://www.jmir.org/2014/2/e33/))
+- Une étude réalisée en 2014 sur quatre réseaux sociaux de santé numérique a révélé que les 1 % supérieurs créaient 73 % des publications, les 9 % suivants représentaient une moyenne d'environ 25 % et les 90 % restants représentaient une moyenne de 2 % ( [Référence](https://www.jmir.org/2014/2/e33/) )
 
-See Also:
+Voir également:
 
-- [Pareto principle](#the-pareto-principle-the-8020-rule)
+- [Principe de Pareto](#the-pareto-principle-the-8020-rule)
 
-### Amdahl's Law
+### La loi d'Amdahl
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Loi d'Amdahl sur Wikipédia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
-> Amdahl's Law is a formula which shows the *potential speedup* of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+> La loi d'Amdahl est une formule qui montre l' *accélération potentielle* d'une tâche de calcul qui peut être obtenue en augmentant les ressources d'un système. Normalement utilisé en calcul parallèle, il permet de prédire le bénéfice réel de l'augmentation du nombre de processeurs, qui est limité par la parallélisabilité du programme.
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
+Mieux illustré par un exemple. Si un programme est composé de deux parties, la partie A, qui doit être exécutée par un seul processeur, et la partie B, qui peut être parallélisée, alors on voit que l'ajout de plusieurs processeurs au système exécutant le programme ne peut avoir qu'un intérêt limité . Cela peut potentiellement améliorer considérablement la vitesse de la partie B - mais la vitesse de la partie A restera inchangée.
 
-The diagram below shows some examples of potential improvements in speed:
+Le diagramme ci-dessous montre quelques exemples d'améliorations potentielles de la vitesse :
 
+<img width="480px" alt="Schéma : loi d'Amdahl" src="./images/amdahls_law.png">
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png">
+*(Référence de l'image : par Daniels219 sur Wikipedia anglais, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
-*(Image Reference: By Daniels219 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+Comme on peut le voir, même un programme parallélisable à 50% ne profitera que très peu au-delà de 10 unités de traitement, alors qu'un programme parallélisable à 95% peut encore atteindre des gains de vitesse significatifs avec plus d'un millier d'unités de traitement.
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
+À mesure que [la loi de Moore](#moores-law) ralentit et que l'accélération de la vitesse du processeur individuel ralentit, la parallélisation est essentielle pour améliorer les performances. La programmation graphique est un excellent exemple - avec l'informatique moderne basée sur Shader, des pixels ou des fragments individuels peuvent être rendus en parallèle - c'est pourquoi les cartes graphiques modernes ont souvent plusieurs milliers de cœurs de traitement (GPU ou Shader Units).
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+Voir également:
 
-See also:
+- [Loi de Brooks](#brooks-law)
+- [la loi de Moore](#moores-law)
 
-- [Brooks' Law](#brooks-law)
-- [Moore's Law](#moores-law)
+### La théorie des fenêtres cassées
 
-### The Broken Windows Theory
+[La théorie des fenêtres cassées sur Wikipedia](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
-[The Broken Windows Theory on Wikipedia](https://en.wikipedia.org/wiki/Broken_windows_theory)
+La théorie des fenêtres brisées suggère que les signes visibles de crime (ou le manque de soin d'un environnement) conduisent à d'autres crimes plus graves (ou à une détérioration supplémentaire de l'environnement).
 
-The Broken Windows Theory suggests that visible signs of crime (or lack of care of an environment) lead to further and more serious crimes (or further deterioration of the environment).
+Cette théorie a été appliquée au développement de logiciels, suggérant qu'un code de mauvaise qualité (ou [dette technique](#TODO) ) peut conduire à la perception que les efforts pour améliorer la qualité peuvent être ignorés ou sous-évalués, conduisant ainsi à un code de mauvaise qualité supplémentaire. Cet effet se répercute en cascade, entraînant une forte diminution de la qualité au fil du temps.
 
-This theory has been applied to software development, suggesting that poor quality code (or [Technical Debt](#TODO)) can lead to a perception that efforts to improve quality may be ignored or undervalued, thus leading to further poor quality code. This effect cascades leading to a great decrease in quality over time.
+Voir également:
 
-See also:
+- [Dette technique](#TODO)
 
-- [Technical Debt](#TODO)
+Exemples:
 
-Examples:
-
-- [The Pragmatic Programming: Software Entropy](https://flylib.com/books/en/1.315.1.15/1/)
-- [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-broken-window-theory/)
-- [OpenSource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
+- [La programmation pragmatique : l'entropie logicielle](https://flylib.com/books/en/1.315.1.15/1/)
+- [Coder l'horreur : la théorie de la fenêtre brisée](https://blog.codinghorror.com/the-broken-window-theory/)
+- [OpenSource : Joie de programmer - La théorie de la fenêtre brisée](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
