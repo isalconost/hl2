@@ -87,6 +87,8 @@ Vous aimez ce projet ? S'il vous plaît, envisagez [de me parrainer](https://git
 
 Il y a beaucoup de lois dont les gens discutent lorsqu'ils parlent de développement. Ce référentiel est une référence et un aperçu de certains des plus courants. Veuillez partager et soumettre des PR !
 
+aldskjhf;lAJKS ASDF !!!!!
+
 ❗ : Ce référentiel contient une explication de certaines lois, principes et modèles, mais ne *préconise* aucun d'entre eux. La question de savoir si elles doivent être appliquées sera toujours un sujet de débat et dépendra grandement de ce sur quoi vous travaillez.
 
 ## Lois
@@ -101,7 +103,7 @@ Bonjour, je suis le nouveau paragraphe !!!
 
 Le principe du 90-9-1 suggère qu'au sein d'une communauté Internet telle qu'un wiki, 90 % des participants ne consomment que du contenu, 9 % éditent ou modifient du contenu et 1 % des participants ajoutent du contenu.
 
-Exemples concrets :
+Real-world examples:
 
 - Une étude réalisée en 2014 sur quatre réseaux sociaux de santé numérique a révélé que les 1 % supérieurs créaient 73 % des publications, les 9 % suivants représentaient une moyenne d'environ 25 % et les 90 % restants représentaient une moyenne de 2 % ( [Référence](https://www.jmir.org/2014/2/e33/) )
 
@@ -119,6 +121,7 @@ Mieux illustré par un exemple. Si un programme est composé de deux parties, la
 
 Le diagramme ci-dessous montre quelques exemples d'améliorations potentielles de la vitesse :
 
+
 <img width="480px" alt="Schéma : loi d'Amdahl" src="./images/amdahls_law.png">
 
 *(Référence de l'image : par Daniels219 sur Wikipedia anglais, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
@@ -127,7 +130,7 @@ Comme on peut le voir, même un programme parallélisable à 50% ne profitera qu
 
 À mesure que [la loi de Moore](#moores-law) ralentit et que l'accélération de la vitesse du processeur individuel ralentit, la parallélisation est essentielle pour améliorer les performances. La programmation graphique est un excellent exemple - avec l'informatique moderne basée sur Shader, des pixels ou des fragments individuels peuvent être rendus en parallèle - c'est pourquoi les cartes graphiques modernes ont souvent plusieurs milliers de cœurs de traitement (GPU ou Shader Units).
 
-Voir également:
+See also:
 
 - [Loi de Brooks](#brooks-law)
 - [la loi de Moore](#moores-law)
@@ -140,7 +143,7 @@ La théorie des fenêtres brisées suggère que les signes visibles de crime (ou
 
 Cette théorie a été appliquée au développement de logiciels, suggérant qu'un code de mauvaise qualité (ou [dette technique](#TODO) ) peut conduire à la perception que les efforts pour améliorer la qualité peuvent être ignorés ou sous-évalués, conduisant ainsi à un code de mauvaise qualité supplémentaire. Cet effet se répercute en cascade, entraînant une forte diminution de la qualité au fil du temps.
 
-Voir également:
+See also:
 
 - [Dette technique](#TODO)
 
